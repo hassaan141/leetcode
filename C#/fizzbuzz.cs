@@ -2,7 +2,7 @@ public class Solution {
     public IList<string> FizzBuzz(int n) {
         var result = new List<string>();
         for(int i = 1; i<=n; i++){
-            if(i%3==0 && i%5 ==0){
+            if(i%3==0 && i%5 ==0 && i%1==0){
                 result.Add("FizzBuzz");
             }else if (i%3==0){
                 result.Add("Fizz");
