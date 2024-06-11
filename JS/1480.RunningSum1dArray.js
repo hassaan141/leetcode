@@ -5,7 +5,7 @@
 var runningSum = function(nums) {
 
   let newArr = []
-  for (let i = 0; i<nums.length; i++){
+  for (let i = 0; i<=nums.length; i++){
 
       let sum = 0;
       for (let j = 1; j<=i; j++){
