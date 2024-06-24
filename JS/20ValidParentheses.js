@@ -13,9 +13,16 @@ var isValid = function(s) {
       }
       else{
           let char = stack.pop()
+          console.log(char)
           if (
-              arr[i]
-          )
+              char == '(' && arr[i]!=')' ||
+              char == '{' && arr[i]!='}' ||
+              char == '[' && arr[i]!=']' 
+              
+          ){
+              return false;
+          }
       }
   }
+  return true;
 };
