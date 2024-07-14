@@ -13,7 +13,7 @@ var longestValidParentheses = function(s) {
           stack.push(arr[i])
       }
       else{
-          if(stack.pop() == '(' ){
+          if(stack.push() == '(' ){
               count +=2
           }
       }
