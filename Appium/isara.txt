@@ -1,0 +1,15 @@
+Writting unit test cases at ISARA, come up with test scnereios
+    Ex: Talk about one of the bugs
+    some scenrios missing for unit test cases, so talk about the ways you came up with 10 new scenrios
+
+Bugs were there when dev coded, when bug found, QA found a bug, dev didn'talk
+
+Meetings with QA team, talking about differnt scenrios
+
+Q2. CI/CD pipeline was already setup, Zuez tool integrated with github. When a code is commited and merged, once PR gets approved, github auto triggers multiple actions, one is to make the build which is sent to the zuez tool, which triggers a build run, where a docker image is created the zuez tool deploys to into aws. 
+
+app test
+
+rivian user trying to go to new york, its not considering traffic, google does, use google app with the same address and it will give the congestion information. Then we can compare the time. Wor
+
+Data sorting and Data handling, log scanning
